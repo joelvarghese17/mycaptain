@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int age;
+	string cntry;
+	cout<<"Enter age of person:";
+		cin>>age;
+	cout<<"\nEnter country you belong to:";
+
+	cin>>cntry;
+	if (age>=18 && cntry=="india")
+	cout<<"\nYou are eligible";
+	else
+	cout<<"\nYou are not eligible";
+	return 0;
+}
